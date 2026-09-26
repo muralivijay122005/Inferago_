@@ -38,7 +38,7 @@ const Products = () => {
         {/* Heading */}
         <div className="text-center mb-10 md:mb-16">
           <Reveal className="mb-8">
-            <span className="text-xs tracking-widest text-white/50 uppercase border border-white/10 rounded-full px-4 py-1.5 inter-regular">
+            <span className="text-sm tracking-normal text-white/50 uppercase border border-white/10 rounded-full px-4 py-1.5 inter-regular">
               Products
             </span>
           </Reveal>
@@ -153,7 +153,8 @@ const Products = () => {
                       mt-4 md:mt-10
                       px-4
                       py-2
-                      text-xs
+                      text-sm
+                      inter-medium
                       bg-white
                       text-black
                       rounded-full

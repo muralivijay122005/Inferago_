@@ -104,7 +104,7 @@ const About = () => {
 
         {/* ================= INTRO ================= */}
         <Reveal className="flex justify-center mb-8">
-          <span className="text-xs tracking-widest text-white/50 uppercase border border-white/10 rounded-full px-4 py-1.5">
+          <span className="text-sm tracking-normal text-white/50 uppercase border border-white/10 rounded-full px-4 py-1.5">
             About Us
           </span>
         </Reveal>

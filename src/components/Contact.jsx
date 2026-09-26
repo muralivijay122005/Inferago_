@@ -4,7 +4,7 @@ import { HiArrowUpRight } from "react-icons/hi2";
 import { LuCopy, LuCheck, LuMail } from "react-icons/lu";
 import Reveal from "./Reveal";
 
-const EMAIL = "inferago@gmail.com";
+const EMAIL = "contact@inferago.com";
 const GRADIENT = "linear-gradient(90deg,#FF3300 0%,#FFCB83 40%,#0077FF 85%)";
 
 const fieldClass =
@@ -43,7 +43,7 @@ const Contact = () => {
 
         {/* Label */}
         <Reveal className="flex justify-center mb-8">
-          <span className="text-xs tracking-widest text-white/50 uppercase border border-white/10 rounded-full px-4 py-1.5">
+          <span className="text-sm tracking-normal text-white/50 uppercase border border-white/10 rounded-full px-4 py-1.5">
             Contact Us
           </span>
         </Reveal>
@@ -95,8 +95,7 @@ const Contact = () => {
                     <span className="relative">
                       {EMAIL}
                       <span
-                        className="absolute left-0 -bottom-1 h-px w-0 group-hover:w-full transition-all duration-500"
-                        style={{ background: GRADIENT }}
+                        className="absolute left-0 -bottom-1 h-px w-0 bg-white group-hover:w-full transition-all duration-500"
                       />
                     </span>
                     <HiArrowUpRight className="text-base text-white/50 transition-all duration-300 group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -139,7 +138,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="group flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-2.5 text-sm text-black bg-white rounded-full hover:bg-white/90 transition-all duration-300 active:scale-95"
+                  className="group flex inter-medium items-center justify-center gap-2 w-full sm:w-auto px-8 py-2.5 text-sm text-black bg-white rounded-full hover:bg-white/90 transition-all duration-300 active:scale-95"
                 >
                   Send Message
                   <HiArrowUpRight className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
